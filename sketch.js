@@ -10,13 +10,12 @@ function draw(){
      var x=0;
      while(x<650){
        fill(0, 255, 0);
-       ellipse(0,  255,25,25);
+       ellipse(x,  100,25,25);
     x= x+50;
       
      }
     for(var x=0; x <650;  x = x + 50){
         fill(255,0, 200);
-        ellipse(0,  255,25,25);
-    x= x+50;
+        ellipse(x,  255,25,25);
     }
 }
